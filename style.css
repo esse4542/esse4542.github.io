@@ -3,12 +3,12 @@
 /**********************************/
 body {
     color: #666666;
-    background: #F6D155;
+    background: rgb(255, 255, 255);
     font-family: 'Open Sans', sans-serif;
 }
 
 a {
-    color: #222222;
+    color: rgb(164, 206, 240);
     transition: all .3s;
 }
 
