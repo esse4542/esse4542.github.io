@@ -2,7 +2,7 @@
 /********** General CSS ***********/
 /**********************************/
 body {
-    color: #666666;
+    color: rgb(255, 255, 255);
     background: rgb(255, 255, 255);
     font-family: 'Open Sans', sans-serif;
 }
@@ -15,7 +15,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: #FF6F61;
+    color: rgb(158, 185, 248);
     outline: none;
     text-decoration: none;
 }
@@ -39,7 +39,7 @@ a:focus {
     position: relative;
     width: 100%;
     float: left;
-    background: #222222;
+    background: rgb(255, 255, 255);
 }
 
 .wrapper .content {
@@ -47,7 +47,7 @@ a:focus {
     width: 100%;
     padding: 15px;
     float: left;
-    background: #F6D155;
+    background: rgb(164, 206, 240);
 }
 
 .wrapper .sidebar-header,
@@ -57,7 +57,7 @@ a:focus {
 
 .navbar {
     padding: 15px;
-    background: #222222 !important;
+    background: rgb(255, 255, 255) !important;
 }
 
 .navbar-expand-md .navbar-nav .nav-item {
@@ -112,7 +112,7 @@ a:focus {
         content: "";
         width: 100%;
         height: 30px;
-        background: #F6D155;
+        background: rgb(255, 255, 255);
         z-index: 1;
     }
     
