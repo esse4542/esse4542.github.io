@@ -47,7 +47,7 @@ a:focus {
     width: 100%;
     padding: 15px;
     float: left;
-    background: rgb(164, 206, 240);
+    background: #ffffff;
 }
 
 .wrapper .sidebar-header,
@@ -57,7 +57,7 @@ a:focus {
 
 .navbar {
     padding: 15px;
-    background: rgb(255, 255, 255) !important;
+    background: rgb(164, 206, 240) !important;
 }
 
 .navbar-expand-md .navbar-nav .nav-item {
@@ -76,7 +76,7 @@ a:focus {
 }
 
 .navbar-expand-md .navbar-nav .nav-link i {
-    color: rgb(103, 187, 237);
+    color: #ffffff;
     float: right;
     padding-top: 5px;
     transition: all .3s;
@@ -560,16 +560,16 @@ a:focus {
 
 
 /**********************************/
-/********* Experience CSS *********/
+/********* certificate CSS *********/
 /**********************************/
-.experience {
+.certificate {
     position: relative;
     padding: 60px 30px;
     background: #ffffff;
     border-bottom: 30px solid rgb(164, 206, 240);
 }
 
-.experience .exp-col {
+.certificate .edu-col {
     position: relative;
     width: 100%;
     padding: 20px 0 20px 20px;
@@ -577,28 +577,28 @@ a:focus {
     border-bottom: 1px solid rgb(103, 187, 237);
 }
 
-.experience .col-md-6:first-child .exp-col {
+.certificate .col-md-6:first-child .edu-col {
     padding-top: 0;
 }
 
-.experience .col-md-6:last-child .exp-col {
+.certificate .col-md-6:last-child .edu-col {
     border-bottom: none;
     padding-bottom: 0;
 }
 
 @media (min-width: 768px) {
-    .experience .col-md-6:nth-child(-n+2) .exp-col {
+    .certificate .col-md-6:nth-child(-n+2) .edu-col {
         padding-top: 0;
     }
 
-    .experience .col-md-6:last-child .exp-col,
-    .experience .col-md-6:nth-last-child(2) .exp-col {
+    .certificate .col-md-6:last-child .edu-col,
+    .certificate .col-md-6:nth-last-child(2) .edu-col {
         border-bottom: none;
         padding-bottom: 0;
     }
 }
 
-.experience .exp-col span {
+.certificate .edu-col span {
     position: relative;
     display: block;
     font-size: 13px;
@@ -606,7 +606,7 @@ a:focus {
     margin-bottom: 10px;
 }
 
-.experience .exp-col span::before {
+.certificate .edu-col span::before {
     position: absolute;
     content: "";
     width: 11px;
@@ -617,81 +617,241 @@ a:focus {
     border-radius: 5px;
 }
 
-.experience .exp-col span i {
+.certificate .edu-col span i {
     color: rgb(103, 187, 237);
 }
 
-.experience .exp-col h3 {
+.certificate .edu-col h3 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.certificate .edu-col p {
+    margin: 0;
+}
+
+/**********************************/
+/*********** outdoorActivities CSS **********/
+/**********************************/
+.outdoorActivities {
+    position: relative;
+    padding: 60px 30px;
+    background: #ffffff;
+    border-bottom: 30px solid rgb(164, 206, 240);
+}
+
+.outdoorActivities .edu-col {
+    position: relative;
+    width: 100%;
+    padding: 20px 0 20px 20px;
+    border-left: 1px solid rgb(103, 187, 237);
+    border-bottom: 1px solid rgb(103, 187, 237);
+}
+
+.outdoorActivities .col-md-6:first-child .edu-col {
+    padding-top: 0;
+}
+
+.outdoorActivities .col-md-6:last-child .edu-col {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+@media (min-width: 768px) {
+    .outdoorActivities .col-md-6:nth-child(-n+2) .edu-col {
+        padding-top: 0;
+    }
+
+    .outdoorActivities .col-md-6:last-child .edu-col,
+    .outdoorActivities .col-md-6:nth-last-child(2) .edu-col {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+}
+
+.outdoorActivities .edu-col span {
+    position: relative;
+    /*display: block;*/
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.outdoorActivities .edu-col span::before {
+    position: absolute;
+    content: "";
+    width: 11px;
+    height: 11px;
+    background: #ffffff;
+    top: 5px;
+    left: -26px;
+    border-radius: 5px;
+}
+
+.outdoorActivities .edu-col span i {
+    color: #ffffff;
+}
+
+.outdoorActivities .edu-col h3 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.outdoorActivities .edu-col p {
+    margin: 0;
+}
+
+.outdoorActivities .srv-col {
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.outdoorActivities .srv-col i {
+    font-size: 30px;
+    color: rgb(103, 187, 237);
+    margin-bottom: 15px;
+}
+
+.outdoorActivities .srv-col h3 {
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 2px;
     margin-bottom: 5px;
 }
 
-.experience .exp-col h4 {
+
+/*
+.certificate {
+    position: relative;
+    padding: 60px 30px;
+    background: #ffffff;
+    border-bottom: 30px solid rgb(164, 206, 240);
+}
+
+.certificate .exp-col {
+    position: relative;
+    width: 100%;
+    padding: 20px 0 20px 20px;
+    border-left: 1px solid rgb(103, 187, 237);
+    border-bottom: 1px solid rgb(103, 187, 237);
+}
+
+.certificate .col-md-6:first-child .exp-col {
+    padding-top: 0;
+}
+
+.certificate .col-md-6:last-child .exp-col {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+@media (min-width: 768px) {
+    .certificate .col-md-6:nth-child(-n+2) .exp-col {
+        padding-top: 0;
+    }
+
+    .certificate .col-md-6:last-child .exp-col,
+    .certificate .col-md-6:nth-last-child(2) .exp-col {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+}
+
+.certificate .exp-col span {
+    position: relative;
+    display: block;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.certificate .exp-col span::before {
+    position: absolute;
+    content: "";
+    width: 11px;
+    height: 11px;
+    background: rgb(103, 187, 237);
+    top: 5px;
+    left: -26px;
+    border-radius: 5px;
+}
+
+.certificate .exp-col span i {
+    color: rgb(103, 187, 237);
+}
+
+.certificate .exp-col h3 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.certificate .exp-col h4 {
     font-size: 14px;
     font-weight: 400;
     font-style: italic;
     margin-bottom: 5px;
 }
 
-.experience .exp-col h5 {
+.certificate .exp-col h5 {
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 10px;
 }
 
-.experience .exp-col p {
+.certificate .exp-col p {
     margin: 0;
 }
+*/
 
-
-/**********************************/
-/*********** Service CSS **********/
-/**********************************/
-.service {
+/*
+.outdoorActivities {
     position: relative;
     padding: 60px 30px 30px 30px;
     background: #ffffff;
     border-bottom: 30px solid rgb(164, 206, 240);
 }
 
-.service .srv-col {
+.outdoorActivities .srv-col {
     position: relative;
     width: 100%;
     margin-bottom: 30px;
 }
 
-.service .srv-col i {
+.outdoorActivities .srv-col i {
     font-size: 30px;
     color: rgb(103, 187, 237);
     margin-bottom: 15px;
 }
 
-.service .srv-col h3 {
+.outdoorActivities .srv-col h3 {
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 2px;
     margin-bottom: 5px;
 }
 
-.experience .exp-col h4 {
+.outdoorActivities .exp-col h4 {
     font-size: 14px;
     font-weight: 400;
     font-style: italic;
     margin-bottom: 5px;
 }
 
-.experience .exp-col h5 {
+.outdoorActivities .exp-col h5 {
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 10px;
 }
 
-.experience .exp-col p {
+.outdoorActivities .exp-col p {
     margin: 0;
 }
-
+*/
 
 /**********************************/
 /********** Portfolio CSS *********/
